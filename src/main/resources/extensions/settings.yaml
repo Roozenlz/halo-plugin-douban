@@ -1,0 +1,15 @@
+apiVersion: v1alpha1
+kind: Setting
+metadata:
+  name: plugin-douban-settings
+spec:
+  forms:
+    - group: base
+      label: 基本设置
+      formSchema:
+        - $formkit: text
+          label: Douban的ID
+          name: doubanId
+          validation: required
+          value: 241930182
+          help: 我的豆瓣 https://www.douban.com/people/241930182

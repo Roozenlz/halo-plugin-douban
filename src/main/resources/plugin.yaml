@@ -1,0 +1,19 @@
+apiVersion: plugin.halo.run/v1alpha1
+kind: Plugin
+metadata:
+  name: plugin-douban
+spec:
+  enabled: true
+  requires: ">=2.11.0"
+  author:
+    name: Roozen
+    website: https://roozen.top
+  logo: logo.png
+  settingName: plugin-douban-settings
+  configMapName: plugin-douban-configmap
+  homepage: https://github.com/Roozenlz/plugin-douban
+  displayName: "豆瓣插件"
+  description: "为主题提供从豆瓣爬取到的数据，提供页面路由"
+  license:
+    - name: "MIT"
+      url: "https://github.com/Roozenlz/plugin-douban/blob/main/LICENSE"
